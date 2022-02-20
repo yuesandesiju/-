@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Document</title>
-    table {
-    table-layout: fixed;
-    border-collapse: collapse;
-    border-spacing: 0px;
+
     <style>
+        img {
+            max-width: 100%;
+        }
+
         table {
             table-layout: fixed;
             border-collapse: collapse;
-
         }
 
         td,
@@ -26,13 +27,26 @@
 </head>
 
 <body>
-    <h1>林孝埈</h1>
+    <nav>
+
+        <ol>
+            <li><a href="#lin">个人简介</a></li>
+            <li><a href="#events">重要事件</a></li>
+            <li><a href="#career">运动生涯</a></li>
+            <li><a href="#rewards">获奖记录</a></li>
+            <li><a href="#pictures">生活照</a></li>
+            <li><a href="#evaluation">社会评价</a></li>
+        </ol>
+
+
+    </nav>
+    <h1 id="lin">林孝埈</h1>
     <p>
         林孝埈于1996年5月29日在韩国大邱出生。起初，他的父母想让他成为一名游泳运动员，
         但由于他在玩棉棒时弄伤了鼓膜，接受手术后不得不放弃游泳运动，
         并在小学二年级的时候选择转项目，开始练习短道速滑。
     </p>
-    <h2>重要事件</h2>
+    <h2 id="events">重要事件</h2>
 
     <ul>
         <li>林孝埈从中学开始遭遇不幸。他在初中一年级时右脚胫骨骨折，这是他第一次受重伤，一年半时间里他无法穿上冰鞋，然而他并没有放弃，离开家乡大邱来到首尔，和一位早就看好他实力的教练一起训练并从伤病中逐渐恢复。</li>
@@ -40,7 +54,7 @@
         <li>2021年10月，林孝埈首次身穿中国国家队的队服公开亮相。根据相关政策，林孝埈需要距离
             代表韩国参赛三年后，才能为其他国家出战，而林孝埈上次代表韩国参赛是在2019年，因此他并不满足参加北京冬奥会的条件。</li>
     </ul>
-    <h2>
+    <h2 id="career">
         运动生涯
     </h2>
     <ol>
@@ -51,7 +65,7 @@
         <li>2021年10月，林孝埈首次身穿中国国家队的队服公开亮相。根据相关政策，林孝埈需要距离代表韩国参赛三年后，才能为其他国家出战，而林孝埈上次代表韩国参赛是在2019年，因此他并不满足参加北京冬奥会的条件。</li>
         <li>2022年1月10日，在2022北京冬奥会短道速滑选拔赛B组决赛中，林孝埈获得男子500米和1500米第二名 。</li>
     </ol>
-    <h2>获奖记录</h2>
+    <h2 id="rewards">获奖记录</h2>
     <table>
         <thead>
             <tr>
@@ -98,13 +112,13 @@
             </tr>
         </tbody>
     </table>
-    <h2>生活照</h2>
+    <h2 id="pictures">生活照</h2>
 
-    <div><img width="300" src="images/1.jpg" alt="可爱的小林"></div>
-    <div><img width="300" src="images/2.jpg" alt="可爱的小林"></div>
-    <div><img width="300" src="images/3jpg.jpg" alt="可爱的小林"></div>
+    <div><a href="images/1.jpg" target="_blank"><img width="300" src="images/1.jpg" alt="可爱的小林"></a></div>
+    <div><a href="images/2.jpg" target="_blank"><img width="300" src="images/2.jpg" alt="可爱的小林"></a></div>
+    <div><a href="images/3jpg.jpg" target="_blank"><img width="300" src="images/3jpg.jpg" alt="可爱的小林"></a></div>
 
-    <h2>社会评价</h2>
+    <h2 id="evaluation">社会评价</h2>
     <p>
     <ul>
         <li>林孝埈擅长中长距离且接力比赛经验丰富。（环球网评）</li>
@@ -112,6 +126,8 @@
         <li>说实话这么多年，我们每次看到林孝埈，都感觉到像个奇迹一样。没有父母的支持和内心对于短道速滑的热爱，是根本坚持不到现在的，他确实也很值得学习。（中国队领队杨占宇评）</li>
     </ul>
     </p>
+
 </body>
+
 
 </html>
